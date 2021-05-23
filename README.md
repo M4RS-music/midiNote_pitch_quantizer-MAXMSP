@@ -3,7 +3,7 @@
 A javascript (jsui) object that quantizes the pitch of a midi note to an 8 step scale
 
 # HOW TO USE IT
-Create a jsui object in a Max For Live or Max MSP patcher. /n
+Create a jsui object in a Max For Live or Max MSP patcher. \n
 Select midi2Scale.js as the javascript file in the inspector of the jsui object, this object will now be refered to as midi2Scale.
 On inlet 0 of midi2Scale connect the message "midiToScale $1" using a patch cord.
 To inlet 0 of the message "midiToScale $1" send an integer value that represents the pitch of a midi note.
